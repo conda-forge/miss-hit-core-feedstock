@@ -1,5 +1,5 @@
 {% set name = "miss-hit-core" %}
-{% set version = "0.9.41" %}
+{% set version = "0.9.42" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/miss_hit_core-{{ version }}.tar.gz
-  sha256: 8e2a4c9086db5ae3fa59158d1f95d4e3ee85eeb14f1820fd4e247d6f159fdb90
+  sha256: 8bf98607f41d18ddcfeca972d0c05468007844479f6da00a46a15a66c1c4b20c
 
 build:
   entry_points:
